@@ -9,6 +9,7 @@ type MessageType = {
   body: string;
   senderId: string;
   createdAt: string;
+  shouldShake?: boolean;
 };
 
 // glogal.d.ts is a special file. Types added here can be used globally in the project without importing them.
